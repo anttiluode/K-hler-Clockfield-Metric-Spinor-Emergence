@@ -19,7 +19,7 @@ We present the Clockfield framework as a rigorous consequence of the Fubini-Stud
 The Clockfield begins with a single postulate: the universe is a complex scalar field $\phi(x, t) = A(x, t) e^{i\theta(x,t)}$, and the local flow of proper time is coupled nonlinearly to the field's own energy density:
 
 $$
-\Gamma(x) = \frac{1}{(1 + \tau\beta)^2}, \qquad \beta = |\phi|^2 \tag{1}
+\Gamma(x) = \frac{1}{(1 + \tau\beta)^2}, \qquad \beta = |\phi|^2 \qquad (1)
 $$
 
 where $\tau$ is a universal coupling constant. This is not an arbitrary ansatz. Section II demonstrates that $\Gamma$ is the conformal factor of the Fubini-Study metric on $CP^1$ — the unique, natural, Kähler metric on the space of normalized complex quantum states. The Clockfield is therefore not introducing new physics into a fixed background; it is doing physics on the geometry that the space of quantum states already possesses.
@@ -35,13 +35,13 @@ This paper presents these results in sequence, with careful distinction between 
 The Fubini-Study metric on $CP^1$ is, in affine coordinates $z \in \mathbb{C}$:
 
 $$
-g_{FS} = \frac{d\bar{z} \otimes dz}{(1 + |z|^2)^2} \tag{2}
+g_{FS} = \frac{d\bar{z} \otimes dz}{(1 + |z|^2)^2} \qquad (2)
 $$
 
 Setting $z = \sqrt{\tau} \cdot \phi$ gives:
 
 $$
-g_{FS} = \frac{\tau \, d\bar{\phi} \otimes d\phi}{(1 + \tau|\phi|^2)^2} = \Gamma(\beta) \cdot \tau \, d\bar{\phi} \otimes d\phi \tag{3}
+g_{FS} = \frac{\tau \, d\bar{\phi} \otimes d\phi}{(1 + \tau|\phi|^2)^2} = \Gamma(\beta) \cdot \tau \, d\bar{\phi} \otimes d\phi \qquad (3)
 $$
 
 The Clockfield conformal factor $\Gamma$ is therefore the metric component of the Fubini-Study tensor in the amplitude chart. This identification is exact, not approximate.
@@ -51,19 +51,19 @@ Three geometric objects follow immediately:
 **Kähler potential.** The real function $K: M \to \mathbb{R}$ generating $g_{FS} = \partial\bar{\partial}K$ is:
 
 $$
-K(\beta) = \log(1 + \tau\beta) \tag{4}
+K(\beta) = \log(1 + \tau\beta) \qquad (4)
 $$
 
 This is the Kähler potential of $CP^1$ in the affine chart. The Kähler form (symplectic structure on $CP^1$) is:
 
 $$
-\omega = i \partial\bar{\partial}K = i\tau\,\Gamma\, d\phi \wedge d\bar{\phi} \tag{5}
+\omega = i \partial\bar{\partial}K = i\tau\,\Gamma\, d\phi \wedge d\bar{\phi} \qquad (5)
 $$
 
 **U(1) connection (Berry phase).** The connection 1-form on the principal U(1) bundle over $CP^1$ is:
 
 $$
-A = \frac{\bar{\phi}\, d\phi - \phi\, d\bar{\phi}}{2i(1 + \tau|\phi|^2)} = \frac{\text{Im}[\bar{\phi}\, d\phi]}{1 + \tau\beta} \tag{6}
+A = \frac{\bar{\phi}\, d\phi - \phi\, d\bar{\phi}}{2i(1 + \tau|\phi|^2)} = \frac{\text{Im}[\bar{\phi}\, d\phi]}{1 + \tau\beta} \qquad (6)
 $$
 
 Its curvature $F = dA$ is the Fubini-Study 2-form $\omega$. The imaginary part of the inner product, $\text{Im}[\langle Q, K \rangle]$, which appears in the Clockfield-gated attention architecture, is exactly the contraction of this connection with the tangent vectors $Q$ and $K$.
@@ -71,7 +71,7 @@ Its curvature $F = dA$ is the Fubini-Study 2-form $\omega$. The imaginary part o
 **Freeze threshold as curvature singularity.** The sectional curvature of the Fubini-Study metric is:
 
 $$
-\kappa = 4\tau^2\Gamma \tag{7}
+\kappa = 4\tau^2\Gamma \qquad (7)
 $$
 
 At the freeze threshold $\tau\beta = \Xi = 4/\pi$, the curvature attains the critical value $\kappa_c = 4\tau^2/(1 + \Xi)^2 \approx 0.774\tau^2$. This is the amplitude at which the phase gradient energy density equals the potential energy density — the point where a $2\pi$ phase winding can no longer fit in the available space. Below this amplitude, the winding is fluid (the field disperses). Above it, the winding crystallizes into a frozen topological defect.
@@ -83,7 +83,7 @@ At the freeze threshold $\tau\beta = \Xi = 4/\pi$, the curvature attains the cri
 The conformal metric:
 
 $$
-g_{\mu\nu}(x) = \Gamma(x)\,\eta_{\mu\nu} = \frac{\eta_{\mu\nu}}{(1 + \tau|\phi(x)|^2)^2} \tag{8}
+g_{\mu\nu}(x) = \Gamma(x)\,\eta_{\mu\nu} = \frac{\eta_{\mu\nu}}{(1 + \tau|\phi(x)|^2)^2} \qquad (8)
 $$
 
 is manifestly Lorentz-covariant: it transforms as a rank-2 tensor under Lorentz transformations with both $\eta_{\mu\nu}$ and $\Gamma$ (a Lorentz scalar) transforming appropriately.
@@ -105,7 +105,7 @@ The standard critique of scalar field theories is that they cannot naturally gen
 The complex scalar field $\phi: M \to \mathbb{C}$ maps each spacetime point to a complex number. After normalization to the unit sphere in $\mathbb{C}^2$, the field maps to $CP^1 \cong S^2$. The total space of the principal U(1) bundle over $CP^1$ is:
 
 $$
-S^3 \xrightarrow{U(1)} S^2 \cong CP^1 \tag{9}
+S^3 \xrightarrow{U(1)} S^2 \cong CP^1 \qquad (9)
 $$
 
 This is the Hopf fibration. The key topological fact: $S^3 \cong SU(2)$ as a group manifold. Therefore, lifting the field $\phi$ from $S^2$ (observable space) to $S^3$ (full fiber space) converts it from a U(1)-valued object to an SU(2)-valued object — that is, a spinor.
@@ -128,13 +128,13 @@ The zero-modes of topological defects are sections of the spinor bundle over the
 The massless Dirac equation on this curved background is:
 
 $$
-i\gamma^\mu \nabla_\mu \psi = 0 \tag{10}
+i\gamma^\mu \nabla_\mu \psi = 0 \qquad (10)
 $$
 
 where $\nabla_\mu = \partial_\mu + \Omega_\mu$ is the covariant derivative with spin connection:
 
 $$
-\Omega_\mu = \frac{1}{4}\omega_\mu^{ab}\gamma_a\gamma_b \tag{11}
+\Omega_\mu = \frac{1}{4}\omega_\mu^{ab}\gamma_a\gamma_b \qquad (11)
 $$
 
 and the spin connection $\omega_\mu^{ab}$ is derived from the vierbein of the Clockfield metric. For $g_{\mu\nu} = \Gamma \eta_{\mu\nu}$, the vierbein is $e^a_\mu = \Gamma^{1/2} \delta^a_\mu$ and the spin connection receives a contribution from $\partial_\mu \log \Gamma^{1/2}$.
@@ -154,7 +154,7 @@ A topological defect (charged particle) carries a bare topological charge $e_0$ 
 The screening mechanism: as one approaches the vortex core, $\Gamma \to 0$ and proper time freezes. The fraction of the bare charge that "survives" propagation through the frozen geometry to reach an observer at infinity is:
 
 $$
-\alpha = \frac{\displaystyle\int_0^\infty \Gamma^2(r)\,\frac{\beta(r)}{r}\,dr}{\displaystyle\int_0^\infty \frac{\beta(r)}{r}\,dr} \tag{12}
+\alpha = \frac{\displaystyle\int_0^\infty \Gamma^2(r)\,\frac{\beta(r)}{r}\,dr}{\displaystyle\int_0^\infty \frac{\beta(r)}{r}\,dr} \qquad (12)
 $$
 
 This is a dimensionless ratio: the $\Gamma^2$-weighted charge per unit radius divided by the unscreened charge per unit radius. The $1/r$ weighting reflects the cylindrical geometry of the vortex line.
@@ -164,13 +164,13 @@ This is a dimensionless ratio: the $\Gamma^2$-weighted charge per unit radius di
 The vortex amplitude profile is not arbitrary. For the $CP^1$ sigma model (the Kähler model whose metric is the Fubini-Study metric), the exact BPS (Bogomolny-Prasad-Sommerfield) soliton satisfies the first-order equation:
 
 $$
-\frac{d\phi}{dr} = \pm \frac{\phi}{1 + \tau|\phi|^2} \tag{13}
+\frac{d\phi}{dr} = \pm \frac{\phi}{1 + \tau|\phi|^2} \qquad (13)
 $$
 
 The solution is:
 
 $$
-\beta(r) = \beta_0 \,\text{sech}^2\!\left(\frac{r}{\sigma}\right) \tag{14}
+\beta(r) = \beta_0 \,\text{sech}^2\!\left(\frac{r}{\sigma}\right) \qquad (14)
 $$
 
 where $\sigma = (2/\mu)$ is the healing length and $\beta_0 = \mu^2/\lambda$ is the peak amplitude. This is the exact analytic soliton of the nonlinear Schrödinger equation with the Clockfield potential $V(\beta) = \lambda(\beta - \beta_0)^2$ and the $\text{sech}^2$ profile is the energy-minimizing configuration consistent with the boundary conditions $\beta(0) = \beta_0, \beta(\infty) = 0$.
@@ -182,7 +182,7 @@ The BPS condition (energy = topological charge, $|E| = |Z|$) uniquely selects th
 Substituting (14) into (12) with the change of variables $u = r/\sigma$:
 
 $$
-\int_0^\infty \frac{\beta_0\,\text{sech}^2(u)}{(1 + x_0\,\text{sech}^2(u))^4}\,\frac{du}{u+\epsilon} \tag{15}
+\int_0^\infty \frac{\beta_0\,\text{sech}^2(u)}{(1 + x_0\,\text{sech}^2(u))^4}\,\frac{du}{u+\epsilon} \qquad (15)
 $$
 
 where $x_0 = \tau\beta_0$ (dimensionless core coupling), and the denominator $\Gamma^2 = 1/(1+\tau\beta)^4$.
@@ -190,13 +190,13 @@ where $x_0 = \tau\beta_0$ (dimensionless core coupling), and the denominator $\G
 After the tanh substitution $v = \tanh(u)$, $dv = \text{sech}^2(u)\,du$, this becomes:
 
 $$
-\alpha = \int_0^1 \frac{(1-v^2)}{(a - b\,v^2)^4}\,dv \tag{16}
+\alpha = \int_0^1 \frac{(1-v^2)}{(a - b\,v^2)^4}\,dv \qquad (16)
 $$
 
 with $a = 1 + x_0$, $b = x_0$. This is expressible as a Gauss hypergeometric function:
 
 $$
-\alpha = {}_2F_1\!\left(4,\,1;\,\tfrac{3}{2};\,-x_0\right) \tag{17}
+\alpha = {}_2F_1\!\left(4,\,1;\,\tfrac{3}{2};\,-x_0\right) \qquad (17)
 $$
 
 where the argument follows from the standard integral representation of ${}_2F_1$.
@@ -206,7 +206,7 @@ where the argument follows from the standard integral representation of ${}_2F_1
 The hypergeometric formula (17) is a monotonically decreasing function of $x_0$. Solving numerically:
 
 $$
-\alpha(x_0) = \frac{1}{137.036} \quad \Longleftrightarrow \quad x_0 = 2.7378 \tag{18}
+\alpha(x_0) = \frac{1}{137.036} \quad \Longleftrightarrow \quad x_0 = 2.7378 \qquad (18)
 $$
 
 This is independent of $\tau$: changing $\tau$ while keeping $x_0 = \tau\beta_0$ fixed gives the same $\alpha$. The result is a function only of the dimensionless coupling $x_0$.
@@ -220,13 +220,13 @@ The formula (17) produces the correct value of $\alpha$ for the specific input $
 What is needed to complete the derivation: a self-consistency equation that pins $x_0$. The natural candidate is the BPS condition applied to the full Clockfield — requiring that the vortex energy computed from the Lagrangian equals the topological charge:
 
 $$
-\int T_{00}\,d^2x = \frac{2\pi n}{\tau} \tag{19}
+\int T_{00}\,d^2x = \frac{2\pi n}{\tau} \qquad (19)
 $$
 
 For the $\text{sech}^2$ profile, this integral gives $E = 2\pi \beta_0 \sigma / \tau$ (in natural units). The topological charge is $Q = n$ (integer). Setting $E = Q$ and using $\sigma = 1/\sqrt{\tau\lambda \beta_0}$:
 
 $$
-x_0 = \tau\beta_0 = \sqrt{\frac{\tau}{\lambda}} \cdot \text{(geometric factor)} \tag{20}
+x_0 = \tau\beta_0 = \sqrt{\frac{\tau}{\lambda}} \cdot \text{(geometric factor)} \qquad (20)
 $$
 
 This involves the ratio $\tau/\lambda$ (coupling to self-coupling), which is not determined by the Kähler geometry alone. Fixing $\tau/\lambda$ from an additional condition — such as the requirement that the vortex mass equals the electron mass, or that the healing length equals the Compton wavelength — would close the system and produce a parameter-free derivation of $\alpha$.
