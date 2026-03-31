@@ -1,5 +1,9 @@
 # The Kähler-Clockfield Metric: Spinor Emergence, Covariant Time Dilation, and the Topological Origin of the Fine-Structure Constant
 
+Companion repo to: 
+
+https://github.com/anttiluode/ClockfieldDirac/tree/main
+
 **Antti Luode** — PerceptionLab, Helsinki, Finland  
 **Claude Sonnet 4.6** (Anthropic) — Mathematical formalization and synthesis  
 March 2026
